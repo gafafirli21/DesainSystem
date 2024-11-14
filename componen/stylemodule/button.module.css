@@ -1,0 +1,47 @@
+/* components/Button.module.css */
+.button {
+    display: inline-block;
+    border-radius: 5px; /* Slightly larger radius for a softer look */
+    padding: 8px 16px; /* Increased padding for a more spacious feel */
+    border: 1px solid #B0B0B0; /* Darker border for a more formal appearance */
+    background-color: #F7F7F7; /* Solid background color for a clean look */
+    font: 600 14px/20px 'Segoe UI', Tahoma, Geneva, sans-serif; /* More formal font */
+    color: #333; /* Dark text for better readability */
+    cursor: pointer;
+    transition: background 0.3s, color 0.3s, border-color 0.3s, box-shadow 0.3s; /* Added box-shadow transition */
+}
+
+.button--state-success {
+    color: #FFF;
+    background-color: #4CAF50; /* Solid background for success */
+    border-color: #388E3C; /* Darker border for a stronger look */
+}
+
+.button--state-info {
+    color: #FFF;
+    background-color: #2196F3; /* Solid background for info */
+    border-color: #1976D2; /* Darker border */
+}
+
+.button--state-danger {
+    color: #FFF;
+    background-color: #F44336; /* Solid background for danger */
+    border-color: #D32F2F; /* Darker border */
+}
+
+.button--state-default {
+    color: #333;
+    background-color: #EAEAEA; /* Solid background for default */
+    border-color: #B0B0B0; /* Consistent border color */
+}
+
+.button--state-warning {
+    color: #FFF;
+    background-color: #FF9800; /* Solid background for warning */
+    border-color: #F57C00; /* Darker border */
+}
+
+.button:hover {
+    opacity: 0.85; /* Slightly reduced opacity on hover */
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Subtle shadow on hover for depth */
+}
